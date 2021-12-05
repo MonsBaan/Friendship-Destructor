@@ -5,7 +5,7 @@ using UnityEngine;
 public class EventosMapa : MonoBehaviour
 {
     [Header("Tamaño de cada casilla")]
-    public int tamañoCasilla;
+    public float tamañoCasilla;
     // Start is called before the first frame update
     void Start()
     {

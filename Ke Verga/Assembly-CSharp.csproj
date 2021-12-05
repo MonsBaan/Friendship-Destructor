@@ -37,8 +37,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Jugador\ScriptVidas.cs" />
-     <Compile Include="Assets\Scripts\Jugador\Moverse.cs" />
      <Compile Include="Assets\EventosMapa.cs" />
+     <Compile Include="Assets\Scripts\Jugador\Moverse.cs" />
+     <Compile Include="Assets\ZoomControl.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

@@ -166,12 +166,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 90
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1
+        y: 91
+        width: 19
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_1
       rect:
         serializedVersion: 2
-        x: 22
-        y: 90
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 23
+        y: 91
+        width: 19
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,12 +208,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_2
       rect:
         serializedVersion: 2
-        x: 44
-        y: 90
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 45
+        y: 91
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,12 +229,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_3
       rect:
         serializedVersion: 2
-        x: 66
-        y: 90
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 69
+        y: 91
+        width: 17
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -250,12 +250,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_4
       rect:
         serializedVersion: 2
-        x: 88
+        x: 91
         y: 90
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 17
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,12 +271,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_5
       rect:
         serializedVersion: 2
-        x: 110
-        y: 90
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 113
+        y: 91
+        width: 17
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 60
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3
+        y: 61
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -313,12 +313,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_7
       rect:
         serializedVersion: 2
-        x: 22
-        y: 60
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 24
+        y: 61
+        width: 18
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -334,12 +334,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_8
       rect:
         serializedVersion: 2
-        x: 44
-        y: 60
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 47
+        y: 61
+        width: 18
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -355,12 +355,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_9
       rect:
         serializedVersion: 2
-        x: 66
-        y: 60
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 70
+        y: 61
+        width: 14
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -376,12 +376,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_10
       rect:
         serializedVersion: 2
-        x: 88
-        y: 60
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 92
+        y: 61
+        width: 14
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -397,12 +397,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_11
       rect:
         serializedVersion: 2
-        x: 110
-        y: 60
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 114
+        y: 61
+        width: 14
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -418,12 +418,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 30
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3
+        y: 31
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -439,12 +439,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_13
       rect:
         serializedVersion: 2
-        x: 22
-        y: 30
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 25
+        y: 31
+        width: 18
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -460,12 +460,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_14
       rect:
         serializedVersion: 2
-        x: 44
-        y: 30
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 46
+        y: 31
+        width: 18
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -481,12 +481,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_15
       rect:
         serializedVersion: 2
-        x: 66
-        y: 30
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 70
+        y: 31
+        width: 14
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -502,12 +502,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_16
       rect:
         serializedVersion: 2
-        x: 88
-        y: 30
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 92
+        y: 31
+        width: 14
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -523,12 +523,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_17
       rect:
         serializedVersion: 2
-        x: 110
-        y: 30
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 114
+        y: 31
+        width: 14
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -544,12 +544,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3
+        y: 1
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -565,12 +565,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_19
       rect:
         serializedVersion: 2
-        x: 22
-        y: 0
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 26
+        y: 1
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -586,12 +586,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_20
       rect:
         serializedVersion: 2
-        x: 44
-        y: 0
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 46
+        y: 1
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -607,12 +607,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_21
       rect:
         serializedVersion: 2
-        x: 66
-        y: 0
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 69
+        y: 1
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -628,12 +628,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_22
       rect:
         serializedVersion: 2
-        x: 88
-        y: 0
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 92
+        y: 1
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -649,12 +649,12 @@ TextureImporter:
       name: PlaceholderV_Sprites_23
       rect:
         serializedVersion: 2
-        x: 110
-        y: 0
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 112
+        y: 1
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
