@@ -9,19 +9,25 @@ public class Moverse : MonoBehaviour
     [Header("Puntos de Accion")]
     public int puntosAccion;
     [Header("Rango Disparo")]
-    public int rangoDisparo = 2;
+    public int rangoDisparo;
+    [Header("Rango Movimiento")]
+    public int rangoMovimiento ;
     [Header("Velocidad movimiento")]
     public float velocidad;
     private GameObject mapa;
     private float tamañoCasilla;
     private Transform moñecoTransform;
+    private Animator moñecoAnimator;
     public bool isMoving;
+    private int dirMovimiento;
     private bool isMenu;
     public Vector3 moveTo;
     void Start()
     {
         moñecoTransform = this.transform;
+        moñecoAnimator = moñecoTransform.GetComponent<Animator>();
         isMenu = false;
+        dirMovimiento = 0;
         mapa = GameObject.Find("Mapa");
         tamañoCasilla = GameObject.Find("Mapa").GetComponent<EventosMapa>().tamañoCasilla;
         moveTo = moñecoTransform.position;
@@ -39,70 +45,72 @@ public class Moverse : MonoBehaviour
             moñecoTransform.Find("Vidas").GetComponent<ScriptVidas>().cambiarVidas(vida);
         }
 
-        teclasMovimiento();
         if (isMoving)
-        {
             moverPersonaje();
-        }
+
+        moñecoAnimator.SetInteger("Direccion", dirMovimiento);
+
     }
 
     public void moverPersonaje(){   
         
-        if (Vector3.Distance(moñecoTransform.position, moveTo) < 0.1){
+        if (Vector3.Distance(moñecoTransform.position, moveTo) < 1){
             isMoving = false;
             moñecoTransform.position = moveTo;
+            dirMovimiento = 0;
+
         }            
         else
         {
             //Movimiento Izquierda y Derecha
-            if(moñecoTransform.position.x > moveTo.x)
+            if(moñecoTransform.position.x > moveTo.x){
                 moñecoTransform.Translate(Vector3.left * velocidad);
-            else if(moñecoTransform.position.x < moveTo.x)
+                moñecoTransform.localScale = new Vector3(-1, 1, 1);
+                dirMovimiento = 3;
+            }
+            else if(moñecoTransform.position.x < moveTo.x){
                 moñecoTransform.Translate(Vector3.right * velocidad);
+                moñecoTransform.localScale = new Vector3(1, 1, 1);
+                dirMovimiento = 3;
+            }
             
             //Movimiento Arriba y Abajo
-            if(moñecoTransform.position.y < moveTo.y)
+            if(moñecoTransform.position.y < moveTo.y){
                 moñecoTransform.Translate(Vector3.up * velocidad);
-            else if(moñecoTransform.position.y > moveTo.y)
+                dirMovimiento = 2;
+            }
+            else if(moñecoTransform.position.y > moveTo.y){
                 moñecoTransform.Translate(Vector3.down * velocidad);
-        }
+                dirMovimiento = 1;
 
-
-    }
-
-    private void teclasMovimiento(){
-        if (Input.GetKeyDown("left"))
-        {
-            isMoving = true;
-            moveTo.x -= tamañoCasilla;
-        }
-        else if (Input.GetKeyDown("right"))
-        {
-            isMoving = true;
-            moveTo.x += tamañoCasilla;        
-        }
-        else if (Input.GetKeyDown("up"))
-        {
-            isMoving = true;
-            moveTo.y += tamañoCasilla;        
-        }
-        else if (Input.GetKeyDown("down"))
-        {
-            isMoving = true;
-            moveTo.y -= tamañoCasilla;        
+            }
         }
     }
     void OnMouseDown()
     {
-    GameObject menu = moñecoTransform.Find("MenuInteracciones").gameObject;
-
     if (isMenu)
         isMenu = false;
     else
         isMenu = true;
+    
+    setMenu(isMenu);
+    dirMovimiento = 0;
 
-    menu.SetActive(isMenu);
+    }
 
+    public void setMenu(bool estado){
+        GameObject menu = moñecoTransform.Find("MenuInteracciones").gameObject;
+        isMenu = estado;
+        menu.SetActive(estado);
+
+    }
+
+    public void setDir(int direccion){
+        dirMovimiento = direccion;
+    }
+
+    public void moverse(Vector3 goTo){
+        moveTo = goTo;
     }
 
     
