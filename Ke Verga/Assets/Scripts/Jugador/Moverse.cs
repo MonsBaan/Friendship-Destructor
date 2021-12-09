@@ -37,6 +37,9 @@ public class Moverse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        GameObject.Find("RangoMovimiento").transform.localScale = new Vector3(60 * rangoMovimiento, 60 * rangoMovimiento, 1);
+
+
         if(vida <= 0){
             moñecoTransform.Find("Vidas").gameObject.SetActive(false);
         }else
